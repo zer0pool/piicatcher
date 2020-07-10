@@ -1,10 +1,11 @@
 """PiiTypes enumerates the different types of PII data"""
-from enum import Enum, auto
 import json
+from enum import Enum, auto
 
 
 class PiiTypes(Enum):
     """PiiTypes enumerates the different types of PII data"""
+
     NONE = auto()
     UNSUPPORTED = auto()
     PHONE = auto()
